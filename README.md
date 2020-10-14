@@ -1,7 +1,7 @@
 # CypressCucumberMendixDemo
 A starter project for automated testing using Cypress with a Cucumber preprocessor for Mendix
 
-Kick off
+## Kick off
 Either fork this project or follow steps below.
 
 	1. Create a new folder
@@ -50,7 +50,7 @@ Either fork this project or follow steps below.
 	14. Create your feature files in the integration folder
 	15. To use specific step defs: create a folder with the same name as the feature file and a .js file of the same name. These steps will only be available to this feature.
 
-Running tests
+## Running tests
         1. Ensure the Advanced_Mendix project is running locally
         2. Navigate to the root of the Cypress project folder using VSCode or command line
         3. Run "npm run cy:start"
@@ -61,21 +61,21 @@ Running tests
 
 
 
-Known issues:
-	• When reloading Mendix project, Cypress is often slow to refresh. If you wait a minute it usually resolves itself. For this reason running headless always seems to fail.
-	• Timeout issues also on free tier of Mendix. Pages seem to just fail to load in time. Increasing timeout does not fix issue.
-	• If you allow users to have multiple concurrent sessions, Cypress can make you run out of licenses and force rerun of project.
-	• Selecting multiple items on a datagrid does not seem to be possible. CTRL click does not work.
-	• Unsure yet how to target:
-		a. Elements with a tooltip
-		b. Items that do not produce HTML elements (e.g. JS graphs)
+## Known issues:
+	- When reloading Mendix project, Cypress is often slow to refresh. If you wait a minute it usually resolves itself. For this reason running headless always seems to fail.
+	- Timeout issues also on free tier of Mendix. Pages seem to just fail to load in time. Increasing timeout does not fix issue.
+	- If you allow users to have multiple concurrent sessions, Cypress can make you run out of licenses and force rerun of project.
+	- Selecting multiple items on a datagrid does not seem to be possible. CTRL click does not work.
+	- Unsure yet how to target:
+		- Elements with a tooltip
+		- Items that do not produce HTML elements (e.g. JS graphs)
 	
-Best practices:
-	• Store all file dependencies in cypress/fixtures
-	• Build reusable steps as much as possible
-	• Name elements in Mendix to facilitate interaction
-	• Clean up data as final step
+## Best practices:
+	- Store all file dependencies in cypress/fixtures
+	- Build reusable steps as much as possible
+	- Name elements in Mendix to facilitate interaction
+	- Clean up data as final step
 
-Essential additional documentation
+## Essential additional documentation
 Cypress cucumber preprocessor https://www.npmjs.com/package/cypress-cucumber-preprocessor
 Cypress https://docs.cypress.io/guides/getting-started/
