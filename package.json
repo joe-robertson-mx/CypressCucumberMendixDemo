@@ -1,0 +1,37 @@
+{
+  "name": "cypresscucumbermendixdemo",
+  "version": "1.0.0",
+  "description": "A starter project for automated testing using Cypress with a Cucumber preprocessor for Mendix",
+  "main": "index.js",
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing",
+    "mendix"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^5.3.0",
+    "cypress-cucumber-preprocessor": "^3.0.0",
+    "cypress-file-upload": "^4.1.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "cy:run": "./node_modules/.bin/cypress run",
+    "cy:start": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerob319/CypressCucumberMendixDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joerob319/CypressCucumberMendixDemo/issues"
+  },
+  "homepage": "https://github.com/joerob319/CypressCucumberMendixDemo#readme"
+}

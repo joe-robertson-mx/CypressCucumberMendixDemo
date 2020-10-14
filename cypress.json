@@ -1,0 +1,10 @@
+{
+    "ignoreTestFiles": "*.js",
+    "testFiles": "**/*.{feature,features}",
+    "video": false,
+    "chromeWebSecurity": false,
+    "experimentalSourceRewriting": true,
+    "defaultCommandTimeout": 40000,
+    "pageLoadTimeout": 60000
+  }
+  
