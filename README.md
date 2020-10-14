@@ -51,12 +51,12 @@ Either fork this project or follow steps below.
 	15. To use specific step defs: create a folder with the same name as the feature file and a .js file of the same name. These steps will only be available to this feature.
 
 Running tests
-	1. Ensure the Advanced_Mendix project is running locally
-	2. Navigate to the root of the Cypress project folder using VSCode or command line
-	3. Run "npm run cy:start"
-	4. Open the Cypress interface
-	5. Click the test you want to run
-	6. Watch it run in the browser
+        1. Ensure the Advanced_Mendix project is running locally
+        2. Navigate to the root of the Cypress project folder using VSCode or command line
+        3. Run "npm run cy:start"
+        4. Open the Cypress interface
+        5. Click the test you want to run
+        6. Watch it run in the browser
 
 
 
